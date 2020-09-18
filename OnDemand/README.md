@@ -69,7 +69,8 @@ That should bring you to "Interactive Sessions" page like below.
 
 <img src="figures/jupyter_notebook.png" width="80%">
 
-- Type 2 lines of command in the cell: 
+- Each grey box next to `In [n]` is called a **Cell** and you can tpye in python and execute it on a line-by-line basis directory in your browser.
+- Type the following 2 lines of command in an empty cell: 
 
 ```
 import torch
@@ -79,18 +80,18 @@ print(torch.Tensor([0.]).cuda().device)
 
 <img src="figures/jupyter_checked.png" width="80%">
 
-- Next, let's checkout the code repository we will use for the workshop! _Add a new cell_ by hitting "+" button on the top (next to sissors :)). That should add a new cell to type more commands. Type the following command and execute again.
+- Next, let's checkout the code repository we will use for the workshop! _Add a new cell_ by hitting "+" button on the top (next to sissors :)). That should add a new cell to type more commands. Type the following command and execute again (the `!` tells jupyter to run a shell command rather than some python code).
 
 ```
-git clone https://github.com/slaclab/slacml-school
+! git clone https://github.com/slaclab/slacml-school
 ```
-- Tt should look like below (and again, if not, [hit Kazu](mailto:kterao@slac.stanford.edu)!).
+- It should look like below (and again, if not, [hit Kazu](mailto:kterao@slac.stanford.edu)!).
 
 <img src="figures/jupyter_clone.png" width="80%">
 
 - Now go back to the **home tab** in your browser and you should see 2 new items.
-  - Untitled.ipynb ... this is the _notebook_ you created and run some commands there
-  - slacml-school ... this is the directory, or a `git` repository, you just checked out. The workshop materials will be made available there.
+  - `Untitled.ipynb` ... this is the _notebook_ you created and run some commands there
+  - `slacml-school` ... this is the directory, or a `git` repository, you just checked out. The workshop materials will be made available there.
 
 ### 5. Party!
 
