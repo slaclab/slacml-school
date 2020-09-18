@@ -3,7 +3,11 @@
 Please read and follow the below steps as soon as you can so that we can ensure that we run into minimal issues on the day of the classes. If you have any problems, feel free to email Yee at ytl@slac.stanford.edu or to contact us on the SLAC [#slacml-school](https://slac.slack.com/archives/C01B0B03HC3) Slack channel.
 
 ## Accounts and Access
+
+The [SLAC Shared Scientific Data Facility (SDF)](https://ondemand-dev.slac.stanford.edu) is a new cluster at SLAC. It is specifically designed for the need of the Machine Learning community at SLAC. We shall be using SDF for this course!
+
 Many of you already have SLAC UNIX accounts, however, the SDF will be using SLAC Windows accounts. This is in accordance to a long term goal to simplify our operational infrastructure and reduce the technical debt that we have accumulated.
+
 If you do not already have a SLAC Windows account, you can create one if you already have a UNIX account by visiting http://ad-account.slac.stanford.edu/. Note that you will need to have your SLAC training up-to-date.
 
 ## Getting started
@@ -29,7 +33,7 @@ If you had selected a different authentication service other than SLAC, you may 
 * Follow the instructions above to Login
 
 
-You should be presented with the 'ondemand' frontend that looks like below
+You should be presented with the 'ondemand' frontend that looks like below, say hello!
 
 <img src="figures/ondemand.png" width="80%">
 
