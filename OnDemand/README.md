@@ -18,6 +18,12 @@ If you do not already have a SLAC Windows account, you can create one if you alr
 
 <img src="figures/ondemand.png" width="80%">
 
+#### 1.1 Home Creation
+
+* If this is the first time you've used [SDF](https://ondemand-dev.slac.stanford.edu), then you may get the following notice: ```"Home directory not found: Your home directory appears to be missing. If this is the first time you have logged in with this account, you may need to access our systems using SSH in order to trigger the creation of your home directory."```
+* Follow the instructions to ssh into sdf-login.slac.stanford.edu, and then exit
+* Then click on 'restart web server'
+
 ### 2. Launch jupyter
 - at the top of the 'ondemand' webpage that we just logged into, click on 'Interactive Apps'
 - Select 'Jupyter' from the list
