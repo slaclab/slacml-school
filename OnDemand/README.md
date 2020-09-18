@@ -11,18 +11,27 @@ If you do not already have a SLAC Windows account, you can create one if you alr
 ### 1. Login
 * Goto https://ondemand-dev.slac.stanford.edu in your favorite web browser. You are more than welcome to browse the documentation.
 * Click on the "Login" button
-* You will be presented with a CILogin screen: This allows us to provide delegated authentication so that you may log on with non-SLAC credentials. As with all good things, you'll have to wait for this feature to be implemented.
+* You will be presented with a CILogon screen: This allows us to provide delegated authentication so that you may log on with non-SLAC credentials. As with all good things, you'll have to wait for this feature to be implemented.
 * Select **SLAC National Accelerator Laboratory** from the drop down list.
 * The standard SLAC single-sign-on-page will be presented: enter your SLAC Windows credentials. You may also be asked for your '2-factor' key using Duo.
-* You should be presented with the 'ondemand' frontend that looks like below
-
-<img src="figures/ondemand.png" width="80%">
 
 #### 1.1 Home Creation
 
 * If this is the first time you've used [SDF](https://ondemand-dev.slac.stanford.edu), then you may get the following notice: ```"Home directory not found: Your home directory appears to be missing. If this is the first time you have logged in with this account, you may need to access our systems using SSH in order to trigger the creation of your home directory."```
 * Follow the instructions to ssh into sdf-login.slac.stanford.edu, and then exit
 * Then click on 'restart web server'
+
+#### 1.2 Could not map user
+
+If you had selected a different authentication service other than SLAC, you may be presented with an error message saying that your username could not be mapped. To rectify this, you will need to logout and log back in with your SLAC credentials
+
+* goto https://ondemand-dev.slac.stanford.edu/logout
+* Follow the instructions above to Login
+
+
+* You should be presented with the 'ondemand' frontend that looks like below
+
+<img src="figures/ondemand.png" width="80%">
 
 ### 2. Launch jupyter
 - at the top of the 'ondemand' webpage that we just logged into, click on 'Interactive Apps'
