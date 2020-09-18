@@ -4,7 +4,7 @@ This repository contains materials to be covered during the SLAC ML-Initiatives 
 
 The materials are organized by a directory per topic listed below.
 
-* [**OnDemand**](/slaclab/slacml-school/blob/master/OnDemand/README.md)
+* [**OnDemand**](/blob/master/OnDemand/README.md)
   - A guide for how to connect SLAC MLI GPU instance and interface `Jupyter`.
   - **Prerequisite**: please do this before the workshop! 
 * [**Preparation**](/slaclab/slacml-school/blob/master/Preparation/README.md)
