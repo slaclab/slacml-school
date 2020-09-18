@@ -1,6 +1,6 @@
 # Set up SLAC computing environment
 
-Please read and follow the below steps as soon as you can so that we can ensure that we run into minimal issues on the day of the classes. If you have any problems, feel free to email Yee at ytl@slac.stanford.edu or to contact us on the SLAC #ml-class Slack channel.
+Please read and follow the below steps as soon as you can so that we can ensure that we run into minimal issues on the day of the classes. If you have any problems, feel free to email Yee at ytl@slac.stanford.edu or to contact us on the SLAC #slacml-school Slack channel.
 
 ## Accounts and Access
 Many of you already have SLAC UNIX accounts, however, the SDF will be using SLAC Windows accounts. This is in accordance to a long term goal to simplify our operational infrastructure and reduce the technical debt that we have accumulated.
@@ -23,14 +23,14 @@ If you do not already have a SLAC Windows account, you can create one if you alr
 - Select 'Jupyter' from the list
 - You should be presented with a set of options to launch a Jupyter instance
 - Select 
-  - Jupyter Instance: blah
+  - Jupyter Instance: `ml-at-slac/school-2020-09`
   - leave "Use JupyterLab" unchecked
-  - Partition: ml
-  - Number of hours: 4
-  - Number of CPU cores: 4
-  - Total Memory to allocate: 12228
-  - Number of GPUs: 1
-  - GPU Type: Any
+  - Partition: `ml`
+  - Number of hours: `4`
+  - Number of CPU cores: `4`
+  - Total Memory to allocate: `12288`
+  - Number of GPUs: `1`
+  - GPU Type: `Any`
 - Click on the big blue 'Launch' button at the bottom. That should bring you to "Interactive Sessions" page like below.
 
 <img src="figures/jupyter_queued.png" width="80%">
