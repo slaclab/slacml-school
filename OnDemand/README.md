@@ -29,7 +29,7 @@ If you had selected a different authentication service other than SLAC, you may 
 * Follow the instructions above to Login
 
 
-* You should be presented with the 'ondemand' frontend that looks like below
+You should be presented with the 'ondemand' frontend that looks like below
 
 <img src="figures/ondemand.png" width="80%">
 
@@ -37,7 +37,7 @@ If you had selected a different authentication service other than SLAC, you may 
 - at the top of the 'ondemand' webpage that we just logged into, click on 'Interactive Apps'
 - Select 'Jupyter' from the list
 - You should be presented with a set of options to launch a Jupyter instance
-- Select 
+- For the purposes of this school, select 
   - Jupyter Instance: `ml-at-slac/school-2020-09`
   - leave "Use JupyterLab" unchecked
   - Partition: `ml`
@@ -46,7 +46,9 @@ If you had selected a different authentication service other than SLAC, you may 
   - Total Memory to allocate: `12288`
   - Number of GPUs: `1`
   - GPU Type: `Any`
-- Click on the big blue 'Launch' button at the bottom. That should bring you to "Interactive Sessions" page like below.
+- Click on the big blue 'Launch' button at the bottom.
+
+That should bring you to "Interactive Sessions" page like below.
 
 <img src="figures/jupyter_queued.png" width="80%">
 
@@ -59,6 +61,7 @@ If you had selected a different authentication service other than SLAC, you may 
 <img src="figures/jupyter_login.png" width="80%">
 
 ### 4. Verify it works
+
 - Start a new notebook by selecting "New" => "Python 3" like shown below
 <img src="figures/jupyter_starting.png" width="80%">
 
@@ -67,6 +70,7 @@ If you had selected a different authentication service other than SLAC, you may 
 <img src="figures/jupyter_notebook.png" width="80%">
 
 - Type 2 lines of command in the cell: 
+
 ```
 import torch
 print(torch.Tensor([0.]).cuda().device)
@@ -76,21 +80,21 @@ print(torch.Tensor([0.]).cuda().device)
 <img src="figures/jupyter_checked.png" width="80%">
 
 - Next, let's checkout the code repository we will use for the workshop! _Add a new cell_ by hitting "+" button on the top (next to sissors :)). That should add a new cell to type more commands. Type the following command and execute again.
+
 ```
-git clone https://github.com/drinkingkazu/tmp_slacml
+git clone https://github.com/slaclab/slacml-school
 ```
-... it should look like below (and again, if not, [hit Kazu](mailto:kterao@slac.stanford.edu)!).
+- Tt should look like below (and again, if not, [hit Kazu](mailto:kterao@slac.stanford.edu)!).
 
 <img src="figures/jupyter_clone.png" width="80%">
 
-- Now go back to the **home tab** and you should see 2 new items.
+- Now go back to the **home tab** in your browser and you should see 2 new items.
   - Untitled.ipynb ... this is the _notebook_ you created and run some commands there
-  - tmp_slacml ... this is the directory, or a `git` repository, you just checked out. The workshop materials will be made available there.
+  - slacml-school ... this is the directory, or a `git` repository, you just checked out. The workshop materials will be made available there.
 
 ### 5. Party!
+
 Congrats! You have your computing instance up and running = ready for the workshop ... **hardware-wise** :)
 
-We assume some minimal knowledge about Python and scientific libraries. You just checked out the workshop repository, so you can go there and explore `tmp_slacml/Preparation` directory, or [read a brief documentation here](https://github.com/drinkingkazu/tmp_slacml/blob/master/Preparation/README.md). There are notebooks named **Python-0X-YYY.ipynb**. Start from 01 and try to look at look at all of them. You can execute all notebooks and see what happens. Modify and observe a difference in behavior. Again, [hit Kazu](mailto:kterao@slac.stanford.edu) for questions!
+We assume some minimal knowledge about Python and scientific libraries. You just checked out the workshop repository, so you can go there and explore `~/slacml-school/Preparation` directory, or [read it online](Preparation/README.md). There are notebooks named **Python-0X-YYY.ipynb**. Start from 01 and try to look at look at all of them. You can execute all notebooks and see what happens. Modify and observe a difference in behavior. Again, [hit Kazu](mailto:kterao@slac.stanford.edu) for questions!
 
-
-    ```
