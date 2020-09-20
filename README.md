@@ -4,7 +4,7 @@ This repository contains materials to be covered during the SLAC ML Initiative (
 
 The materials are organized by a directory per topic listed below.
 
-## 00. Rerequisites
+## 00. Prerequisites
 
 Please do these before the workshop!
 
