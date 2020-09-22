@@ -10,5 +10,7 @@ Our workshop assumes some basic knowledge about Python programming language and 
     - an introduction to `numpy`, the most popular scientific library in Python that is used as the base or supported by other scientific libraries. We cover data types, arrays and operations on arrays, linear algebra, random numbers, etc.
 4. Python-04-ScientificPython ... (link to [web-viewer](https://nbviewer.jupyter.org/github/slaclab/slacml-school/blob/master/00-Prerequisites/02-Preparation/Python-04-ScientificPython.ipynb) and [raw code](/00-Prerequisites/02-Preparation/Python-04-Jupyter.ipynb))
     - an introduction to visualization tools, fitting a function, saving data into a file, etc..
+5. Python-05-Pytorch ... (link to [web-viewer](https://nbviewer.jupyter.org/github/slaclab/slacml-school/blob/master/00-Prerequisites/02-Preparation/Python-05-Pytorch.ipynb) and [raw code](/00-Prerequisites/02-Preparation/Python-05-Pytorch.ipynb))
+    - an introduction to Pytorch, one of most popular machine learning libraries, covering a tensor data type, a data streaming tool, and a concept of computation graph
 
 Please feel free to ask a question to us via [slack #slacml-school](https://slac.slack.com/archives/C01B0B03HC3) or via [ancient text communication](mailto:kterao@slac.stanford.edu).
