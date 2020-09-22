@@ -11,7 +11,9 @@ Our workshop assumes some basic knowledge about Python programming language and 
 4. [Python-04-ScientificPython](/00-Prerequisites/02-Preparation/Python-04-Jupyter.ipynb)
     - an introduction to visualization tools, fitting a function, saving data into a file, etc..
 5. [Python-05-Pytorch](/00-Prerequisites/02-Preparation/Python-05-Pytorch.ipynb)
-    - an introduction to Pytorch, one of most popular machine learning libraries, covering a tensor data type, a data streaming tool, and a concept of computation graph
+    - an introduction to Pytorch, one of most popular machine learning libraries, covering a tensor data type, a data streaming tool, and a concept of computation graph    
+6. [Python-06-MNIST-CIFAR10](/00-Prerequisites/02-Preparation/Python-06-MNIST-CIFAR10.ipynb)
+    - a brief overview on two public datasets we will use: MNIST and CIFAR10. Demonstrate how to download, access, visualize, and put into a DataLoader. 
     
 See [how to use SLAC Open OnDemand](/00-Prerequisites/01-OnDemand) to run these notebooks using SLAC GPU cluster.
 
