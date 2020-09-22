@@ -1,6 +1,4 @@
 # typical files made in repo
-00-Prerequisites/02-Preparation/DanielRatner.py
-00-Prerequisites/02-Preparation/RealDanielRatner/
 log*
 weights*
 *.txt
