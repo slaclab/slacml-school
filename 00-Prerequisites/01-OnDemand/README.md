@@ -97,6 +97,8 @@ print(torch.Tensor([0.]).cuda().device)
   - `Untitled.ipynb` ... this is the _notebook_ you created and run some commands there
   - `slacml-school` ... this is the directory, or a `git` repository, you just checked out. The workshop materials will be made available there.
 
+<img src="figures/jupyter_clone_home.png" width="80%">
+
 ### 5. Party!
 
 Congrats! You have your computing instance up and running = ready for the workshop ... **hardware-wise** :)
