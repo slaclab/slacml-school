@@ -52,6 +52,9 @@ You should be presented with the 'ondemand' frontend that looks like below, say 
   - GPU Type: `Any`
 - Click on the big blue 'Launch' button at the bottom.
 
+If you get an error like `sbatch: error: Batch job submission failed: Invalid account or account/partition combination specified`, this means that you do not have permissions to use the `ml` partition in slurm. Contact Yee at [slac's slack #slacml-school channel](https://slac.slack.com/archives/C01B0B03HC3) so that we may add you. Otherwise you can use the `shared` partition instead (or whichever you may be a part of).
+
+
 That should bring you to "Interactive Sessions" page like below.
 
 <img src="figures/jupyter_queued.png" width="80%">
