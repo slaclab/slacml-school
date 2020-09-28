@@ -13,7 +13,7 @@ Please do these before the workshop!
 
 ## 01. Introduction to ML
 
-00. [**Linear Models**](/IntroML/Introduction00-LinearModels.ipynb) [solution](/IntroML/Introduction00-LinearModels-Solution.ipynb)
+00. [**Linear Models**](/IntroML/Introduction00-LinearModels.ipynb): [slides](https://docs.google.com/presentation/d/1Xjp3ZxQ8LTcl44b81NivZKtyU-y6ho98Y-hhdYNbdiE),  [solution](/IntroML/Introduction00-LinearModels-Solution.ipynb)
 
 
 Course materials are found in the following
