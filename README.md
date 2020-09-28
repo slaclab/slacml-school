@@ -11,6 +11,11 @@ Please do these before the workshop!
 01. [**OnDemand**](/00-Prerequisites/01-OnDemand/README.md): A guide on how to get started on SLAC's GPU instances and using Jupyter.
 02. [**Preparation**](/00-Prerequisites/02-Preparation/README.md): Introduction to Jupyter notebook, Python, and a basic set of scientific libraries
 
+## 01. Introduction to ML
+
+00. [**Linear Models**](/IntroML/Introduction00-LinearModels.ipynb) [solution](/IntroML/Introduction00-LinearModels-Solution.ipynb)
+
+
 Course materials are found in the following
 * To be updated
 
