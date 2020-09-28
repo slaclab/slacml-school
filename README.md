@@ -1,6 +1,8 @@
 # SLAC-ML School - 2020 September
 
-This repository contains materials to be covered during the SLAC ML Initiative (MLI) School.
+This repository contains materials to be covered during the SLAC ML Initiative (MLI) School. 
+
+Please see the [indico timetable](https://indico.slac.stanford.edu/event/6645/timetable/) for schedule information regarding this course.
 
 The materials are organized by a directory per topic listed below.
 
@@ -16,9 +18,7 @@ Please do these before the workshop!
 00. [**Linear Models**](/IntroML/Introduction00-LinearModels.ipynb): [slides](https://docs.google.com/presentation/d/1Xjp3ZxQ8LTcl44b81NivZKtyU-y6ho98Y-hhdYNbdiE),  [solution](/IntroML/Introduction00-LinearModels-Solution.ipynb)
 
 
-Course materials are found in the following
-* To be updated
 
 More materials will be added as they become ready.
 
-Questions? iContact us [on slack](https://slac.slack.com/archives/C01B0B03HC3), [email](mailto:kterao@slac.stanford.edu)
+Questions? Contact us [on slack](https://slac.slack.com/archives/C01B0B03HC3), [email](mailto:kterao@slac.stanford.edu)
