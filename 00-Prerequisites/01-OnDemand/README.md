@@ -4,7 +4,7 @@ Please read and follow the below steps as soon as you can so that we can ensure 
 
 ## Accounts and Access
 
-The [SLAC Shared Scientific Data Facility (SDF)](https://ondemand-dev.slac.stanford.edu) is a new cluster at SLAC. It is specifically designed for the need of the Machine Learning community at SLAC. We shall be using SDF for this course!
+The [SLAC Shared Scientific Data Facility (SDF)](https://sdf.slac.stanford.edu) is a new cluster at SLAC. It is specifically designed for the need of the Machine Learning community at SLAC. We shall be using SDF for this course!
 
 Many of you already have SLAC UNIX accounts, however, the SDF will be using SLAC Windows accounts. This is in accordance to a long term goal to simplify our operational infrastructure and reduce the technical debt that we have accumulated.
 
@@ -13,7 +13,7 @@ If you do not already have a SLAC Windows account, you can create one if you alr
 ## Getting started
 
 ### 1. Login
-* Goto https://ondemand-dev.slac.stanford.edu in your favorite web browser. You are more than welcome to browse the documentation.
+* Goto https://sdf.slac.stanford.edu in your favorite web browser. You are more than welcome to browse the documentation.
 * Click on the "Login" button
 * You will be presented with a CILogon screen: This allows us to provide delegated authentication so that you may log on with non-SLAC credentials. As with all good things, you'll have to wait for this feature to be implemented.
 * Select **SLAC National Accelerator Laboratory** from the drop down list.
@@ -21,7 +21,7 @@ If you do not already have a SLAC Windows account, you can create one if you alr
 
 #### 1.1 Home Creation
 
-* If this is the first time you've used [SDF](https://ondemand-dev.slac.stanford.edu), then you may get the following notice: ```"Home directory not found: Your home directory appears to be missing. If this is the first time you have logged in with this account, you may need to access our systems using SSH in order to trigger the creation of your home directory."```
+* If this is the first time you've used [SDF](https://sdf.slac.stanford.edu), then you may get the following notice: ```"Home directory not found: Your home directory appears to be missing. If this is the first time you have logged in with this account, you may need to access our systems using SSH in order to trigger the creation of your home directory."```
 * Follow the instructions to ssh into sdf-login.slac.stanford.edu, and then exit
 * Then click on 'restart web server'
 
@@ -29,7 +29,7 @@ If you do not already have a SLAC Windows account, you can create one if you alr
 
 If you had selected a different authentication service other than SLAC, you may be presented with an error message saying that your username could not be mapped. To rectify this, you will need to logout and log back in with your SLAC credentials
 
-* goto https://ondemand-dev.slac.stanford.edu/logout
+* goto https://sdf.slac.stanford.edu/logout
 * Follow the instructions above to Login
 
 
