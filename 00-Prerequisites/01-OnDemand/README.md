@@ -1,6 +1,6 @@
 # Set up SLAC computing environment
 
-Please read and follow the below steps as soon as you can so that we can ensure that we run into minimal issues on the day of the classes. If you have any problems, feel free to email Yee at ytl@slac.stanford.edu or to contact us on the SLAC [#slacml-school](https://slac.slack.com/archives/C01B0B03HC3) Slack channel.
+Please read and follow the steps outlined below as soon as you can so that we can ensure that we run into minimal issues on the day of the classes. If you have any problems, feel free to email Yee at ytl@slac.stanford.edu or to contact us on the SLAC [#slacml-school](https://slac.slack.com/archives/C01B0B03HC3) Slack channel.
 
 ## Accounts and Access
 
