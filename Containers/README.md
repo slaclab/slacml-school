@@ -81,26 +81,26 @@ vagrant destroy
 
 ## Pull an existing Docker image and Run in singularity
 
-# Pull the image from dockerhub
+### Pull the image from dockerhub
 
 ```
 singularity pull docker://pytorch/pytorch:1.5-cuda10.1-cudnn7-runtime
 ```
 
-# Check for the image on pwd
+### Check for the image on pwd
 
 ```
 ls pytorch_1.5-cuda10.1-cudnn7-runtime.sif
 ```
 
 
-# Run the container
+### Run the container
 
 ```
 singularity exec pytorch_1.5-cuda10.1-cudnn7-runtime.sif python [args…]
 ```
 
-# Enter the container (bring up shell within container)
+### Enter the container (bring up shell within container)
 
 ```
 singularity shell pytorch_1.5-cuda10.1-cudnn7-runtime.sif
